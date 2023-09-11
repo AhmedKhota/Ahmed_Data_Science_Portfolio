@@ -3,6 +3,15 @@ A place to showcase my data science projects. These are made up of work done dur
 
 # Project 1: Creation of Non-Linguistic Utterances using Genetic Algorithm and Validation using Previously Trained Random Forest Model
 
+Summary:
+
+* Previously, random forest model was trained to infer valence and arousal of 560 Non-Linguistic Utterances (NLUs) sourced from popular movies, tv-shows, and video games
+* A Genetic Algorithm was used together with the mido and midiUTIL pypi libraries to generate NLUs
+* The generated sounds were tested and evaluated by human subjects, as well as the random forest model
+* Comparing the Valence and Arousal ratings from the human subjects and the inferences from the random forest model, the Mean Absolute Error was found to be 0.117 for Valence and 0.067 for Arousal. Correlation coefficients between experiment ratings and inferences were 0.22 for Valence and 0.63 for Arousal.
+
+Detailed Description:
+
 A Genetic Algorithm (GA) was designed to optimally generate non-linguistic utterances. These are sounds similar to those made by the android R2D2 in Star Wars and are popularly used by such robots to communicate and convey emotion.
 
 For the GA, a 45-bit binary genotype was designed that contained four notes of 11 bits each, with one extra bit at the end of the genotype representing the instrument.
