@@ -1,6 +1,9 @@
 # GitHub Pages settings
 title: [Ahmed's Data Science Portfolio]
 description: [A place to showcase my data science projects. These are made up of work done during my PhD studies where I needed to use machine learning methods to model the emotional meaning of non-linguistic sounds.]
-remote_theme: pages-themes/midnight@v0.2.0
+#remote_theme: pages-themes/midnight@v0.2.0
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
+remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
