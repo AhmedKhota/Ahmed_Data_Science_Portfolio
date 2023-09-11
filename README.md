@@ -1,7 +1,7 @@
 # Ahmed_Data_Science_Portfolio
 A place to showcase my data science projects. These are made up of work done during my PhD studies where I needed to use machine learning methods to model the emotional meaning of non-linguistic sounds.
 
-# Project 1: Creation of Non-Linguistic Utterances using Genetic Algorithm and Validation using Previously Trained Random Forest Model
+# [Project 1: Creation of Non-Linguistic Utterances using Genetic Algorithm and Validation using Previously Trained Random Forest Model] (https://github.com/AhmedKhota/GA-sound-generation)
 
 Summary:
 
