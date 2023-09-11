@@ -1,7 +1,7 @@
 # Ahmed_Data_Science_Portfolio
 A place to showcase my data science projects. These are made up of work done during my PhD studies where I needed to use machine learning methods to model the emotional meaning of non-linguistic sounds.
 
-# [Project 1: Creation of Non-Linguistic Utterances using Genetic Algorithm and Validation using Previously Trained Random Forest Model](https://github.com/AhmedKhota/GA-sound-generation)
+# [Creation of Non-Linguistic Utterances using Genetic Algorithm and Validation using Previously Trained Random Forest Model](https://github.com/AhmedKhota/GA-sound-generation)
 
 Summary:
 
@@ -10,7 +10,7 @@ Summary:
 * The generated sounds were tested and evaluated by human subjects, as well as the random forest model.
 * Comparing the Valence and Arousal ratings from the human subjects and the inferences from the random forest model, the Mean Absolute Error was found to be 0.117 for Valence and 0.067 for Arousal. Correlation coefficients between experiment ratings and inferences were 0.22 for Valence and 0.63 for Arousal.
 
-# [Project 2: Valence Arousal Inference Model using Random Forest](https://github.com/AhmedKhota/Valence_Arousal_Inference)
+# [Valence Arousal Inference Model using Random Forest](https://github.com/AhmedKhota/Valence_Arousal_Inference)
 
 Summary:
 
