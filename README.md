@@ -10,6 +10,10 @@ Summary:
 * The generated sounds were tested and evaluated by human subjects, as well as the random forest model.
 * Comparing the Valence and Arousal ratings from the human subjects and the inferences from the random forest model, the Mean Absolute Error was found to be 0.117 for Valence and 0.067 for Arousal. Correlation coefficients between experiment ratings and inferences were 0.22 for Valence and 0.63 for Arousal.
 
+![](https://github.com/AhmedKhota/Ahmed_Data_Science_Portfolio/blob/main/images/NN2.png)
+
+![](https://github.com/AhmedKhota/Ahmed_Data_Science_Portfolio/blob/main/images/snapshot_4.png)
+
 # [Valence Arousal Inference Model using Random Forest](https://github.com/AhmedKhota/Valence_Arousal_Inference)
 
 Summary:
@@ -19,5 +23,7 @@ Summary:
 * Carried out an experiment where human subjects rated the emotional valence and arousal of the sounds.
 * Used the audio features and experiment ratings to train a random forest model to infer the valence and arousal of a Non-Linguistic Utterance sound.
 * The model was able to infer the valence with a Mean Absolute Error (MAE) of 0.107 and arousal with an MAE of 0.097, which were both less than the difference between two adjacent points on the rating scale used in the original experiment.
-* The correlation of predicted vs. actual ratings for valence was 0.63 and for arousal 0.75. 
+* The correlation of predicted vs. actual ratings for valence was 0.63 and for arousal 0.75.
+
+![](https://github.com/AhmedKhota/Ahmed_Data_Science_Portfolio/blob/main/images/pvsascatters.png)
 
