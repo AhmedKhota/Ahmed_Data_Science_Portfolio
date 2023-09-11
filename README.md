@@ -24,3 +24,13 @@ Summary:
 
 ![](/images/pvsascatters.png)
 
+# [Clustering and ANOVA for 2-dimensional data with sample weights](https://github.com/AhmedKhota/Clustering_and_ANOVA)
+
+Summary:
+
+* Using the previously trained random forest model, the valence and arousal of a set of sounds were inferred.
+* The sounds were rated by subjects in an experiment for their suitability to four emotions: happy, tense, sad, and neutral.
+* A clustering analysis was performed, using both Density-Based clustering and Kmeans clustering, to determine if meaningful clusters and differences naturally exist in the data, considering the subject ratings.
+* Both DBSCAN and Kmeans found multiple clusters in the data, and using ANOVA, when considering the subject ratings, the differences between the clusters were meaningful at a significance level of p < 0.05.
+
+![](/images/clusterafsall.png)
