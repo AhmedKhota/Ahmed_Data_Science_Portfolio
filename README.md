@@ -50,4 +50,4 @@ Summary:
 
 ![MelSPecLossGraph](/images/MelSPecLossGraph.png)
 
-* The final loss value of 0.2762 represents a difference within two adjacent rating points in the original experiment's seven-point rating scale.
+* The final loss value of 0.276 represents a difference within two adjacent rating points in the original experiment's seven-point rating scale.
