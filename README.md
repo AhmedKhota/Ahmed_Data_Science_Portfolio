@@ -7,10 +7,12 @@ Summary:
 * A Neural Network was trained using 3000 randomly synthesized sounds to infer the fitness of a genotype.
 * Using 10-fold cross-validation, the neural network was trained to evaluate the fitness of the genotypes and achieved an average Mean Absolute Error (MAE) of 0.136 on the normalized rating scale, and a correlation between actual and predicted values of 0.725. The results of the Neural Network training can be seen in the graph below. 
 * The GA ran for thousands of generations and used the trained Neural Network to infer the fitness of the genotypes.
-* The GA generated sounds were tested and evaluated by human subjects, as well as the random forest model.
+* The GA-generated sounds were tested and evaluated by human subjects, as well as the random forest model.
 * Comparing the Valence and Arousal ratings from the human subjects and the inferences from the random forest model, the Mean Absolute Error was found to be 0.117 for Valence and 0.067 for Arousal. Correlation coefficients between experiment ratings and inferences were 0.22 for Valence and 0.63 for Arousal.
 
 ![](/images/NN2.png)
+
+* The hexagon scatter plot below shows the GA-generated sounds inferred valence and arousal after 48000 'fit' individuals were generated over 2000 generations. It shows the regions of the Valence Arousal space explored by the algorithm.
 
 ![](/images/snapshot_4.png)
 
@@ -44,10 +46,6 @@ Summary:
 
 * A Transfer Learning Neural Network model to infer the Valence or Arousal of a sound based on its Mel Spectrogram. Using an existing neural network, the Inception V3 model, trained on image data.
 * Keras was used to implement this.
-* An example of a Mel Spectrogram is shown below:
-
-![MelSPec](/images/Star.Wars.Episode.4.A.New.Hope.1977.1080p.BrRip.x264.BOKUTOX.YIFY.mp4_77_1.wav.jpeg)
-
 * The Training results are shown in the graph below (for Valence):
 
 ![MelSPecLossGraph](/images/MelSPecLossGraph.png)
