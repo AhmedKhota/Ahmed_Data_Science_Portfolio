@@ -38,7 +38,7 @@ Summary:
 
 ![](/images/clusterafsall.png)
 
-# [A Transfer Learning Neural Network Model using InceptionV3 to infer (regression) the Valence or Arousal Mel Spectrograms of sounds]
+# [A Transfer Learning Neural Network Model using InceptionV3 to infer (regression) the Valence or Arousal Mel Spectrograms of sounds](https://github.com/AhmedKhota/Transfer_Learning_NN_MelSPecSounds)
 
 Summary:
 
