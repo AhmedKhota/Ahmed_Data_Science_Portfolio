@@ -3,7 +3,7 @@
 Summary:
 
 * Previously, a random forest model was trained to infer the valence and arousal of 560 Non-Linguistic Utterances (NLUs) sourced from popular movies, TV shows, and video games.
-* A Genetic Algorithm (GA) was used together with the mido and midiUTIL PyPI libraries to generate NLUs.
+* A Genetic Algorithm (GA) was used together with the Mido and MidiUTIL PyPI libraries to generate NLUs.
 * A Neural Network was trained using 3000 randomly synthesized sounds to infer the fitness of a genotype.
 * Using 10-fold cross-validation, the neural network was trained to evaluate the fitness of the genotypes and achieved an average Mean Absolute Error (MAE) of 0.136 on the normalized rating scale, and a correlation between actual and predicted values of 0.725. The results of the Neural Network training can be seen in the graph below. 
 * The GA ran for thousands of generations and used the trained Neural Network to infer the fitness of the genotypes.
